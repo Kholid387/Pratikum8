@@ -1,0 +1,37 @@
+body{
+    flex-direction: row;
+    display: flex;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+nav{
+    background: pink;
+    height: 350px;
+    width: 200px;
+}
+#main>header,footer{
+    height: 8vh;
+    width: 550px;
+    background: aqua;
+    
+}
+.container2{
+    display: flex;
+    flex: 1;
+
+}
+article{
+    width: 400px;
+    height: 236px;
+    
+   
+}
+aside{
+    background: yellowgreen;
+    width: 150px;
+}

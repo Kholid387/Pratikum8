@@ -1,0 +1,36 @@
+body{
+flex-direction: row;
+display: flex;
+background-color: blue;
+}
+#container>header,footer{
+height: 8vh;
+width: 560px;
+background-color: aqua;
+justify-content: space-around;
+margin: 10px;
+}
+.container2{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+article{
+    width: 400px;
+    height: 236px;
+    background: yellowgreen;
+    margin: 10px;
+}
+aside{
+    background: pink;
+    width: 130px;
+    margin: 10px;
+}
+.singa{
+    display: flex;
+    gap: 10px;
+}
+.singa img{
+    width: 100px;
+
+}
